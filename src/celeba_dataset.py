@@ -4,6 +4,7 @@ from torch.utils.data import Dataset
 
 
 class CelebAHQDataset(Dataset):
+    
     def __init__(self, data_dir, transform=None):
         self.data_dir = Path(data_dir)
         self.transform = transform
