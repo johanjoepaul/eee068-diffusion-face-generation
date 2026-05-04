@@ -1,4 +1,3 @@
-cat > requirements.txt <<'EOF'
 torch
 torchvision
 diffusers
@@ -16,4 +15,3 @@ kagglehub
 jupyter
 notebook
 pandas
-EOF
