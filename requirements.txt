@@ -1,0 +1,19 @@
+cat > requirements.txt <<'EOF'
+torch
+torchvision
+diffusers
+datasets
+accelerate
+matplotlib
+pillow
+numpy
+tqdm
+ipykernel
+scipy
+torchmetrics
+clean-fid
+kagglehub
+jupyter
+notebook
+pandas
+EOF

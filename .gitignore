@@ -1,28 +1,22 @@
-# Python
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
-
-# Virtual environment
+# Local environments
+.venv/
 venv/
 
-# Datasets / archives
-data/
+# Datasets (DO NOT COMMIT)
 celeba_hq_256/
-archive.zip
+data/
 *.zip
 
-# Outputs / generated files
+# Notebook/cache
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Outputs
 outputs/
-notebooks/outputs/
 results/
 models/
-
-# Model checkpoints
 *.pt
 *.pth
 *.ckpt
 *.safetensors
-
-# System files
-.DS_Store
