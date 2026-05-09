@@ -1,0 +1,7 @@
+DDPM CelebA-HQ Evaluation Summary
+---------------------------------
+Training images: 2700
+Test images: 300
+Generated images: 300
+Image size: 256x256
+FID score: 114.43401328924296
