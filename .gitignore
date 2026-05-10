@@ -19,4 +19,4 @@ models/
 *.pt
 *.pth
 *.ckpt
-*.safetensors
+*.safetensors*.pth
