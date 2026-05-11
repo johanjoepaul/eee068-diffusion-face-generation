@@ -106,7 +106,6 @@ This preliminary experiment helped verify:
 │   ├── setup.sh
 │   └── setup_celeba.py
 │
-├── Group 30 Diffusion Final Report.pdf
 ├── README.md
 ├── requirements.txt
 └── .gitignore
