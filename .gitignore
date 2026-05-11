@@ -1,22 +1,46 @@
-# Local environments
+# =========================
+# Virtual environments
+# =========================
 .venv/
 venv/
 
-# Datasets (DO NOT COMMIT)
+# =========================
+# Dataset folders
+# =========================
 celeba_hq_256/
 data/
 *.zip
 
-# Notebook/cache
-.ipynb_checkpoints/
+# =========================
+# Python cache
+# =========================
 __pycache__/
 *.pyc
+.ipynb_checkpoints/
 
-# Outputs
-outputs/
-results/
+# =========================
+# Model checkpoints
+# =========================
 models/
+outputs/
 *.pt
 *.pth
 *.ckpt
-*.safetensors*.pth
+*.safetensors
+
+# =========================
+# Generated result folders
+# =========================
+results/generated_300/
+results/real_test_300/
+
+# =========================
+# OS/editor junk
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# VSCode
+# =========================
+.vscode/
